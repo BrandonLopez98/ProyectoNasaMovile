@@ -2,6 +2,8 @@ import React from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
 
 const Header = () =>{
+
+    
     return(
         <View style={styles.container}>
             <View style={styles.leftContainer}>
@@ -16,18 +18,22 @@ const Header = () =>{
 
 const styles = StyleSheet.create({
 container:{
-    paddingTop:35,
+    paddingTop:15,
     flexDirection: 'row',
     alignItems: 'center',
+    justifyContent:'center'
+
 
 },
 leftContainer:{
     flex: 1,
-    alignItems: 'flex-start'
+    alignItems: 'flex-start',
+    justifyContent:'center'
 },
 rightContainer:{
     flex: 1,
     alignItems: 'flex-end',
+    justifyContent:'center',
 },
 title:{
     fontSize: 20,
