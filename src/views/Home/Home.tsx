@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, Image, StyleSheet } from "react-native";
+import { View, Text, Image, StyleSheet , ScrollView } from "react-native";
 import Header from "../../components/Header";
 import fetchApi from "../../utils/fetch";
 import TodayImage from "../../components/TodayImage";
@@ -51,11 +51,11 @@ const Home = () =>{
     }, [])    
 
     return(
-        <View style={styles.container}>
+        <ScrollView style={styles.container}>
             <Header />
             <TodayImage {...todayImage} />
             <LastFiveDaysImages postImages={lastFivesDaysImages}/>
-        </View>
+        </ScrollView>
     )
 }
 

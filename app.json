@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/logo-nasa-icon.png",
+        "backgroundColor": "#071A5D"
+      },
+      "package": "com.brandonlopez.ProyectoNasa"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b5a26224-5cc3-470c-9c2c-f8fe575c4792"
+      }
     }
   }
 }

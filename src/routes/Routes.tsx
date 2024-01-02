@@ -14,8 +14,15 @@ const routeScreenDefaultOptions = {
     },
     headerTitleStyle:{
         color: '#fff',
-    }
+    },
+    headerButtonStyle: {
+        color: '#FF0000',
+      },
+  
 }
+
+
+
 
 const Routes = () =>{
 
